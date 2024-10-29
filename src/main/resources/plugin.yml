@@ -1,0 +1,6 @@
+name: Trash
+version: '1.0'
+main: me.fini69.trash.Trash
+api-version: '1.21.1'
+authors: [ fini69 ]
+description: Get rid of the items in your inventory using Trash Bin.
