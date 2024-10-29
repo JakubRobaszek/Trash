@@ -1,0 +1,17 @@
+trash:
+    # Prefix for all messages
+  prefix: "&b[&6Trash&b]&r "
+    # Message when the trash bin is opened
+  openMessage: "&aTrash bin opened! Put items you want to delete in here."
+    # Title of the trash bin inventory
+  inventoryTitle: "&bTrash Bin"
+    # Message when player does not have permission to use a command
+  noPermission: "&cYou do not have permission to use this command."
+    # Message when console tries to use the trash plugin
+  notPlayer: "&7You are not a player..."
+    # Message when reloading the plugin configuration
+  reloadMessage: "&aConfiguration reloaded!"
+    # Enabled or disable the open inventory message
+  sendOpenMessage: true
+    # Number of trash bin inventory rows (from 1 to 6)
+  inventoryRows: 6
