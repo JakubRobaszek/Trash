@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package me.fini69.trash.listeners
 
 import me.fini69.trash.Trash
@@ -14,7 +16,7 @@ class InventoryListener(private val plugin: Trash) : Listener {
         // Make the method accessible
         method.isAccessible = true
         method
-    } catch (e: Exception) {
+    } catch (_: Exception) {
         // If the method is not found, set it to null
         null
     }
